@@ -10,9 +10,10 @@
 #### Install wiringOP
 6. Run `sudo ./build` in wiringOP directory
 #### Install libgpiod
+7. `sudo apt-get install autotools-dev && sudo apt-get install autoconf && sudo apt-get install dh-autoreconf && sudo apt install autoconf-archive`
 7. `cd libgpiod`
 8. `sudo ./autogen.sh --enable-tools=yes`
-9. `make && make install`
+9. `sudo make && sudo make install`
 10. I forgot.
 11. Profit!
 ## Build
